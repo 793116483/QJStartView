@@ -16,6 +16,7 @@
 		F284837B1EA8ACDC00AAEE59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F28483791EA8ACDC00AAEE59 /* LaunchScreen.storyboard */; };
 		F28483861EA8ACDC00AAEE59 /* QJStarViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F28483851EA8ACDC00AAEE59 /* QJStarViewTests.m */; };
 		F28483911EA8ACDC00AAEE59 /* QJStarViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F28483901EA8ACDC00AAEE59 /* QJStarViewUITests.m */; };
+		F28483A01EA8ADF900AAEE59 /* QJStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F284839F1EA8ADF900AAEE59 /* QJStartView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F284838C1EA8ACDC00AAEE59 /* QJStarViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QJStarViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F28483901EA8ACDC00AAEE59 /* QJStarViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QJStarViewUITests.m; sourceTree = "<group>"; };
 		F28483921EA8ACDC00AAEE59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F284839E1EA8ADF900AAEE59 /* QJStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJStartView.h; sourceTree = "<group>"; };
+		F284839F1EA8ADF900AAEE59 /* QJStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJStartView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				F284837C1EA8ACDC00AAEE59 /* Info.plist */,
 				F28483741EA8ACDC00AAEE59 /* QJStarView.xcdatamodeld */,
 				F28483681EA8ACDC00AAEE59 /* Supporting Files */,
+				F284839E1EA8ADF900AAEE59 /* QJStartView.h */,
+				F284839F1EA8ADF900AAEE59 /* QJStartView.m */,
 			);
 			path = QJStarView;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				F284836D1EA8ACDC00AAEE59 /* AppDelegate.m in Sources */,
 				F284836A1EA8ACDC00AAEE59 /* main.m in Sources */,
 				F28483761EA8ACDC00AAEE59 /* QJStarView.xcdatamodeld in Sources */,
+				F28483A01EA8ADF900AAEE59 /* QJStartView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

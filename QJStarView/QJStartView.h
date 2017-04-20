@@ -6,8 +6,13 @@
 //  Copyright © 2017年 yiniu. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
-@interface QJStartView : NSObject
+@interface QJStartView :UIView
+
+@property (nonatomic , copy)NSString * starImageNameNormal ;
+@property (nonatomic , copy)NSString * starImageNameSelection ;
+
+@property (nonatomic , assign)CGFloat selectionProgress;
 
 @end

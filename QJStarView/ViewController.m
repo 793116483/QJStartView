@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+#import "QJStartView.h"
+
 @interface ViewController ()
+
+@property (nonatomic , strong) QJStartView * startView ;
 
 @end
 
@@ -16,7 +20,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.startView = [[QJStartView alloc] init];
+    self.startView.frame = CGRectMake(100, 100, 40, 40);
+    
+    self.startView.starImageNameNormal = @"icon_StarNo_22";
+    self.startView.starImageNameSelection = @"icon_Star_22";
+    self.startView.selectionProgress = 0.4 ;
+    
+    [self.view addSubview:self.startView];
 }
 
 
